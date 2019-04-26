@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T09:27:42.922Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7862586000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProductOrderandPayment.insti()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Payment Scenario",
+        "description": "",
+        "id": "payment-feature;payment-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Headphone added to Cart",
+            "match": {
+              "location": "ProductOrderandPayment.headphone_added_to_Cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Checkout for payment",
+            "match": {
+              "location": "ProductOrderandPayment.checkout_for_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "fills the Transaction Details",
+            "match": {
+              "location": "ProductOrderandPayment.fills_the_Transaction_Details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Product is ordered successfully",
+            "match": {
+              "location": "ProductOrderandPayment.product_is_ordered_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Payment feature",
+    "description": "",
+    "id": "payment-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/Payment.feature",
+    "tags": []
+  }
+]

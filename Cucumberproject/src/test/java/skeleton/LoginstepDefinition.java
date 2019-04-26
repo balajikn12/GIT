@@ -16,7 +16,7 @@ import testmeapp.utility.Drivers;
 public class LoginstepDefinition {
 
  WebDriver driver;
- @Before
+/* @Before
  public void before()
  {
 driver=Drivers.getDriver("chrome");
@@ -26,7 +26,7 @@ driver=Drivers.getDriver("chrome");
  {
 	 driver.close();
 	 
- }
+ }*/
 @Given("The URL of TestMe APP")
 public void the_URL_of_TestMe_APP() {
 	

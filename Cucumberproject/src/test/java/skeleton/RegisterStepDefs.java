@@ -21,7 +21,7 @@ public class RegisterStepDefs {
 	 WebDriver driver;
 	
 	
-	@Before
+/*	@Before
 	public void init()
 	{
 	
@@ -30,7 +30,7 @@ public class RegisterStepDefs {
 	PageFactory.initElements(driver,Registerpage.class);
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	}
+	}*/
 @Given("url of the demowebshop")
 public void url_of_the_demowebshop() {
    
